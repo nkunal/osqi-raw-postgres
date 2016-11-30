@@ -1,0 +1,15 @@
+{:group.id "osqi-raw-postgres.edn"
+ :kafka.zk.connect "localhost:2181/kafka"
+ :kafka.producer.list "localhost:9092"
+ :topic.name "agentlog"
+ :num.threads 1
+ :batch.size 5
+ :batch.interval 5
+ :health.port 31501
+ :pg.hostname "localhost"
+ :pg.port 5432
+ :pg.database "configdb"
+ :pg.username "postgres"
+ :pg.password "postgres"
+ :pg.pool-size 25})) ;
+ }
